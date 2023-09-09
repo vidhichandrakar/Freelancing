@@ -13,14 +13,14 @@ function AMAE() {
     <div className='AMAE_IMG'>
     <h1>Agriculture Machinery and equipment</h1>
       <div className='Row1'>
-      <Amae_Card wsize = {300}  he ={300} imagePath={AB} title="Agriculture Baler"/>
-      <Amae_Card wsize = {350} he ={300} imagePath={MT} title="Multicrop Thresher"/>
-      <Amae_Card wsize = {200} he ={300} imagePath={FS} title="Fertilizer Spreader"/>
+      <Amae_Card className='row1' wsize = {400}  he ={250} imagePath={AB} title="Agriculture Baler"/>
+      <Amae_Card className='row1' wsize = {400} he ={250} imagePath={MT} title="Multicrop Thresher"/>
+      <Amae_Card className='row1' wsize = {400} he ={250} imagePath={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpj7kCNU08w_SCbekCYI8pLH_TXwuM7EzPPg&usqp=CAU'} title="Fertilizer Spreader"/>
       </div>
       <div className='Row1'>
-      <Amae_Card wsize = {300} he ={300} imagePath={MDP} title="Mounted Disc Plough"/>
-      <Amae_Card wsize = {300} he ={300} imagePath={AFD} title="agriculture Farm Digge"/>
-      <Amae_Card wsize = {300} he ={300} imagePath={LL} title="Land Leveler"/>
+      <Amae_Card className='row1' wsize = {400} he ={250} imagePath={MDP} title="Mounted Disc Plough"/>
+      <Amae_Card className='row1' wsize = {400} he ={250} imagePath={AFD} title="agriculture Farm Digge"/>
+      <Amae_Card className='row1' wsize = {400} he ={250} imagePath={LL} title="Land Leveler"/>
       </div>  
       </div>
     </>

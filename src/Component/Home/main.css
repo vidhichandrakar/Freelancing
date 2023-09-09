@@ -11,10 +11,10 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+
+
 /* yeha se css chalu kiya huu */
-/* body {
-  background-color: #000;
-} */
+
 #main{
   background-image: url(CIFG.jpg);
   background-repeat: no-repeat;
@@ -49,31 +49,56 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 1%;
 }
+
+
 
 .product{
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-bottom: 0%;
+  
 }
 .product_img{
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
+  height: auto;
+  width: auto;
+  /* margin-left: 4%;
+  margin-right: 4%; */
 }
+
 .about{
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin-left: 3%;
+  padding: 1%;
+  /* margin-top: 0%; */
+  /* padding-top: 0%; */
 }
 
+.aboutImg{
+  height: 60%;
+  width: 50%;
+}
+
+.about_content{
+  width: 50%;
+  padding: 4%;
+  margin: 3%;
+}
 
 /* yeha pe khatam css  */
+
+
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Roboto", sans-serif;
