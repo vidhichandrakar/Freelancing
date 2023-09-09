@@ -11,7 +11,8 @@ const Home = () => {
           <li><a href="about.html">CATEGORY</a></li>
           <li><a href="services.html">PRODUCTS</a></li>
           <li><a href="projects.html" class="active">ABOUT US</a></li>
-          <li>LOGOO KE LIYE</li>
+          
+         
 
           <li><a href="blog.html">GALLERY</a></li>
           <li><a href="contact.html">VIDEO</a></li>

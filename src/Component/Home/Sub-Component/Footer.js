@@ -1,44 +1,97 @@
 import React from 'react'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer() {
   return (
     <div>
-        <footer className='foot'>
-    <div className='foot1'>
-      <div>
-        <h5>USEFUL LINKS</h5>
-        <p>PRIVACY POLICY</p>
-        <p>CATAGORY</p>
-        <p>ABOUT US</p>
-        <p>VIDEOS</p>
-      </div>
+        <footer id="footer" class="footer">
 
-      <div>
-        <p>HOME</p>
-        <p>PRODUCT</p>
-        <p>GALLERY</p>
-        <p>TESTIMONIALS</p>
-      </div>
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
 
-      <div>
-        <h5>CONTACT</h5>
-        <p>Palm Court Bldg M,501/B, 5th Floor, New Link Road, Beside Goregaon Sports 
-          Complex, Malad West, Mumbai, 4000064, Maharashtra</p>
-          <p>+91-8888888888</p>
-          <p>websupport@justdail.com</p>
-      </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>UpConstruction</h3>
+              <p>
+                A108 Adam Street <br />
+                NY 535022, USA<br /><br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"><TwitterIcon /></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"><FacebookIcon /></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"><InstagramIcon/></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"><LinkedInIcon /></i></a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
 
-      <div className=''>
-        <h5>CONNECT</h5>
-        <img src='https://static.vecteezy.com/system/resources/previews/018/930/476/original/facebook-logo-facebook-icon-transparent-free-png.png'></img>
-        <img src='https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-net2o24e.png'></img>
-        <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/df/d5/2b/dfd52bdf-1e91-183e-509c-722b1332a30e/Prod-0-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png'></img>
-        <img src='https://help.twitter.com/content/dam/help-twitter/brand/logo.png'></img>         
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
-      
-    </footer>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>UpConstruction</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  
     </div>
     
   )
