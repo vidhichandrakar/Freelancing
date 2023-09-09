@@ -12,12 +12,12 @@ function Products() {
     <div className='product'>
     <h1> Products</h1>
     <div className='product_img'>
-      <Product image={DMDP} title="Disc Mounted DiscPlough" link="" />
-      <Product image={SFS} title="Single fertilizer Spreader" link="" />
-      <Product image={LLL} title="Laser Land Leveler" link="" />
-      <Product image={PHD} title="post hole digger" link="" />
-      <Product image={UT} title="Unnati Thresher" link="" />
-      <Product image={RSB} title="Round Straw Baler" link="" />
+      <Product image={DMDP} wsize={220} he={150} title="Disc Mounted DiscPlough" link="" />
+      <Product image={SFS}  wsize={220} he={150} title="Single fertilizer Spreader" link="" />
+      <Product image={LLL}  wsize={220} he={150}  title="Laser Land Leveler" link="" />
+      <Product image={PHD}  wsize={220} he={150} title="post hole digger" link="" />
+      <Product image={UT}   wsize={220} he={150} title="Unnati Thresher" link="" />
+      <Product image={RSB}  wsize={220} he={150} title="Round Straw Baler" link="" />
       </div>
     </div>
   )

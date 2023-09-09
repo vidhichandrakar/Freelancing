@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import "./main.css"
 
-const home = () => {
+const Home = () => {
   return (
     <Fragment>
       <main id="main"> 
@@ -51,4 +51,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
