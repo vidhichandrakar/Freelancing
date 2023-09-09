@@ -10,8 +10,9 @@ import LL from "./Land Leveler.jpg"
 function AMAE() {
   return (
     <>
+    <div className='mrgn'>
     <div className='AMAE_IMG'>
-    <h1>Agriculture Machinery and equipment</h1>
+    <h1 className='mrgn'>Agriculture Machinery and equipment</h1>
       <div className='Row1'>
       <Amae_Card className='row1' wsize = {400}  he ={250} imagePath={AB} title="Agriculture Baler"/>
       <Amae_Card className='row1' wsize = {400} he ={250} imagePath={MT} title="Multicrop Thresher"/>
@@ -22,6 +23,7 @@ function AMAE() {
       <Amae_Card className='row1' wsize = {400} he ={250} imagePath={AFD} title="agriculture Farm Digge"/>
       <Amae_Card className='row1' wsize = {400} he ={250} imagePath={LL} title="Land Leveler"/>
       </div>  
+      </div>
       </div>
     </>
   )

@@ -15,6 +15,10 @@
 
 /* yeha se css chalu kiya huu */
 
+.mrgn{
+  margin: 4%;
+}
+
 #main{
   background-image: url(CIFG.jpg);
   background-repeat: no-repeat;
@@ -92,24 +96,31 @@
 .gallery_img{
   display: flex;
   flex-direction: row;
+  border-radius: 20px;
 }
 .gallery_img img{
   padding: 20px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
+
+
 .Video{
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .Video_link{
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .Video_link video{
-  padding: 20px ;
+  padding: 20px 20px ;
+  border-radius: 40px;
 }
 .contact_new{
   display: flex;
@@ -118,13 +129,32 @@
   justify-content: center;
 
 }
+
+.container{
+  width: auto;
+}
+
+.row gy-4{
+  width: 30px;
+
+}
+
 .contact_row{
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 .padd{
-  padding: 20px;
+  padding:  10% 10% 10% 1%;
+  width: 110% !important;
+  height: 52%;
+}  
+
+.four-box{
+  height: 30%;
+  width: 100%;
+  border: 2px solid red;
 }
 .flex{
   display: flex;
@@ -146,6 +176,23 @@
   width: 50%;
   padding: 4%;
   margin: 3%;
+}
+
+.map{
+   height: 500%;
+  width: 200%; 
+  padding-right: 5%;
+}
+
+.col{
+  margin: 8%;
+}
+
+.foot{
+  width: 30%;
+}
+.foot1{
+  
 }
 
 /* yeha pe khatam css  */

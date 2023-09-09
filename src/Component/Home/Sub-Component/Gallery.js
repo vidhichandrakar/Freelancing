@@ -7,14 +7,14 @@ import g2 from './gallery2.jpg'
 function Gallery() {
   return (
     <>
-    <div className='gallery'>
+    <div className='gallery' >
     <div>
-        <h1>Gallery</h1>
+        <h1 className='mrgn'>Gallery</h1>
     </div>
     <div className='gallery_img'>
-    <img src={g2} width={400} />
-      <img src={g1} width={400} />
-      <img src={g3} width={400} />
+      <img style={{borderRadius: '40px'}} src={g2} width={420} />
+      <img style={{borderRadius: '40px'}} src={g1} width={420} />
+      <img style={{borderRadius: '40px'}} src={g3} width={420} />
     </div>
     </div>
     </>

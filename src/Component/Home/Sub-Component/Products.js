@@ -9,8 +9,8 @@ import RSB from './Round Straw Baler.jpg'
 
 function Products() {
   return (
-    <div className='product'>
-    <h1> Products</h1>
+    <div className='product mrgn'>
+    <h1 className='mrgn'> Products</h1>
     <div className='product_img'>
       <Product image={DMDP} wsize={220} he={150} title="Disc Mounted DiscPlough" link="" />
       <Product image={SFS}  wsize={220} he={150} title="Single fertilizer Spreader" link="" />

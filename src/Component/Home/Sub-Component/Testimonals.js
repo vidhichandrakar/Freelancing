@@ -4,7 +4,7 @@ import T2 from "./Testimonal2.jpg"
 import T1 from "./Testimonals1.jpg"
 function Testimonals() {
   return (
-    <div>
+    <div className='mrgn'>
       <div id="carouselExampleIndicators" style={{width:'90%', marginLeft:'5%' }} class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
